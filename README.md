@@ -1,11 +1,11 @@
-# Wallpapers
+# Wallpapers-Fedora_44
 
 [![Licencia CC BY-NC-SA 4.0](https://img.shields.io/badge/licencia-CC%20BY--NC--SA%204.0-lightgrey)](LICENSE)
-[![Imágenes](https://img.shields.io/badge/im%C3%A1genes-38-blue)](#galería)
-[![Formatos](https://img.shields.io/badge/formatos-29%20JPG%20%C2%B7%209%20PNG-brightgreen)](#detalles)
+[![Imágenes](https://img.shields.io/badge/im%C3%A1genes-64-blue)](#galería)
+[![Formatos](https://img.shields.io/badge/formatos-55%20JPG%20%C2%B7%209%20PNG-brightgreen)](#detalles)
 [![Hecho con IA](https://img.shields.io/badge/origen-Pinterest%20%2B%20IA-orange)](#aviso-de-origen)
 
-Colección personal de **38 wallpapers** que uso a diario en mi escritorio con **Linux Fedora 44 (GNOME)**. La mayoría son ilustraciones de estilo anime/ciudad nocturna, recopiladas en Pinterest y recreadas o modificadas con inteligencia artificial.
+Colección personal de **64 wallpapers** que uso a diario en mi escritorio con **Linux Fedora 44 (GNOME)**. La mayoría son ilustraciones de estilo anime/ciudad nocturna, recopiladas en Pinterest y recreadas o modificadas con inteligencia artificial.
 
 ---
 
@@ -13,10 +13,35 @@ Colección personal de **38 wallpapers** que uso a diario en mi escritorio con *
 
 | | |
 |---|---|
-| **Imágenes** | 38 (29 JPG + 9 PNG) |
-| **Peso total** | ~46 MB |
+| **Imágenes** | 64 (55 JPG + 9 PNG) |
+| **Peso total** | ~97 MB |
 | **Resoluciones** | variable (ver tabla) |
 | **Uso** | fondo de pantalla personal — Fedora 44 / GNOME |
+
+### Resoluciones
+
+| Resolución | Cantidad |
+|---|---|
+| 1376x768 | 52 |
+| 1536x1024 | 9 |
+| 1365x768 | 1 |
+| 1300x816 | 1 |
+| 1568x672 | 1 |
+
+> **Nota sobre la resolución:** las imágenes **no están en 1920×1080**. Cada una conserva
+> su tamaño original; adapta la que elijas a la resolución de tu pantalla.
+>
+> ```bash
+> # Escalar y recortar al centro hasta 1920×1080 (ImageMagick)
+> magick entrada.jpg -resize 1920x1080^ -gravity center -extent 1920x1080 salida.jpg
+> ```
+>
+> En GNOME también basta con elegir *Ajustes → Fondo* y dejar la opción de ajuste
+> en **"Ajustar a la pantalla"**.
+
+---
+
+## Galería
 
 ### Resoluciones
 
@@ -79,6 +104,32 @@ Colección personal de **38 wallpapers** que uso a diario en mi escritorio con *
     <tr><td align="center" width="25%"><a href="halo-girl-midnight-sea.jpg"><img src="halo-girl-midnight-sea.jpg" width="220" alt="Figura con halo dorado frente al mar de medianoche"></a><br><sub>Figura con halo dorado frente al mar de medianoche</sub></td><td align="center" width="25%"><a href="butterfly-eyes-white-hair-portrait.jpg"><img src="butterfly-eyes-white-hair-portrait.jpg" width="220" alt="Mariposa negra cubriendo los ojos"></a><br><sub>Mariposa negra cubriendo los ojos</sub></td><td align="center" width="25%"><a href="neon-magenta-feather-girl.jpg"><img src="neon-magenta-feather-girl.jpg" width="220" alt="Plumaje atravesado por una línea neón magenta"></a><br><sub>Plumaje atravesado por una línea neón magenta</sub></td><td align="center" width="25%"><a href="masked-katana-girl-gradient.jpg"><img src="masked-katana-girl-gradient.jpg" width="220" alt="Guerrera con máscara sobre degradado pastel"></a><br><sub>Guerrera con máscara sobre degradado pastel</sub></td></tr>
 </table>
 
+### Anime
+
+<table>
+    <tr><td align="center" width="25%"><a href="golden-stairwell-sunset-solitude.jpg"><img src="golden-stairwell-sunset-solitude.jpg" width="220" alt="Figura solitaria en escaleras con luz dorada"></a><br><sub>Figura solitaria en escaleras con luz dorada</sub></td><td align="center" width="25%"><a href="red-gerbera-cafe-counter.jpg"><img src="red-gerbera-cafe-counter.jpg" width="220" alt="Mano sostiene flor roja ante mostrador café"></a><br><sub>Mano sostiene flor roja ante mostrador café</sub></td><td align="center" width="25%"><a href="white-haired-shades-crimson-portrait.jpg"><img src="white-haired-shades-crimson-portrait.jpg" width="220" alt="Retrato anime con gafas redondas sobre rojo"></a><br><sub>Retrato anime con gafas redondas sobre rojo</sub></td><td align="center" width="25%"><a href="warm-lantern-cat-embrace.jpg"><img src="warm-lantern-cat-embrace.jpg" width="220" alt="Abrazo tierno a gato bajo luz cálida"></a><br><sub>Abrazo tierno a gato bajo luz cálida</sub></td></tr>
+    <tr><td align="center" width="25%"><a href="crimson-smoke-bob-portrait.jpg"><img src="crimson-smoke-bob-portrait.jpg" width="220" alt="Retrato con fondo rojo intenso y humo"></a><br><sub>Retrato con fondo rojo intenso y humo</sub></td><td align="center" width="25%"><a href="night-seaside-smile-bridge-lights.jpg"><img src="night-seaside-smile-bridge-lights.jpg" width="220" alt="Sonrisa nocturna ante el mar azul"></a><br><sub>Sonrisa nocturna ante el mar azul</sub></td><td align="center" width="25%"><a href="crimson-spiral-gaze-hand-reach.jpg"><img src="crimson-spiral-gaze-hand-reach.jpg" width="220" alt="Mirada espiral sobre fondo carmesí"></a><br><sub>Mirada espiral sobre fondo carmesí</sub></td><td align="center" width="25%"><a href="sunlit-train-commute-pair.jpg"><img src="sunlit-train-commute-pair.jpg" width="220" alt="Pareja viaja en tren soleado"></a><br><sub>Pareja viaja en tren soleado</sub></td></tr>
+    <tr><td align="center" width="25%"><a href="dawn-beach-somber-figures.jpg"><img src="dawn-beach-somber-figures.jpg" width="220" alt="Figuras sombrías en playa al alba"></a><br><sub>Figuras sombrías en playa al alba</sub></td><td align="center" width="25%"><a href="misty-hilltop-tree-memorial-pair.jpg"><img src="misty-hilltop-tree-memorial-pair.jpg" width="220" alt="Duelo junto a árbol en colina"></a><br><sub>Duelo junto a árbol en colina</sub></td><td align="center" width="25%"><a href="sunset-crowd-street-blond-student.jpg"><img src="sunset-crowd-street-blond-student.jpg" width="220" alt="Joven entre multitud en calle dorada"></a><br><sub>Joven entre multitud en calle dorada</sub></td></tr>
+</table>
+
+### Ciudad / Noche
+
+<table>
+    <tr><td align="center" width="25%"><a href="rooftop-sunset-city-companions.jpg"><img src="rooftop-sunset-city-companions.jpg" width="220" alt="Dos figuras en azotea al atardecer urbano"></a><br><sub>Dos figuras en azotea al atardecer urbano</sub></td><td align="center" width="25%"><a href="golden-market-crowd-stroll.jpg"><img src="golden-market-crowd-stroll.jpg" width="220" alt="Paseo entre multitud en mercado al atardecer"></a><br><sub>Paseo entre multitud en mercado al atardecer</sub></td><td align="center" width="25%"><a href="night-city-lights-bokeh-gaze.jpg"><img src="night-city-lights-bokeh-gaze.jpg" width="220" alt="Figura contempla luces urbanas nocturnas doradas"></a><br><sub>Figura contempla luces urbanas nocturnas doradas</sub></td><td align="center" width="25%"><a href="sunset-city-street-winged-figure.jpg"><img src="sunset-city-street-winged-figure.jpg" width="220" alt="Figura alada en calle urbana al atardecer"></a><br><sub>Figura alada en calle urbana al atardecer</sub></td></tr>
+</table>
+
+### Naturaleza / Paisaje
+
+<table>
+    <tr><td align="center" width="25%"><a href="lone-wanderer-misty-grassland.jpg"><img src="lone-wanderer-misty-grassland.jpg" width="220" alt="Figura solitaria en pradera frente a montañas"></a><br><sub>Figura solitaria en pradera frente a montañas</sub></td><td align="center" width="25%"><a href="flower-field-sunset-daydreamers.jpg"><img src="flower-field-sunset-daydreamers.jpg" width="220" alt="Dos figuras descansan en pradera floral dorada"></a><br><sub>Dos figuras descansan en pradera floral dorada</sub></td><td align="center" width="25%"><a href="dusk-lakeside-mountain-shore-pair.jpg"><img src="dusk-lakeside-mountain-shore-pair.jpg" width="220" alt="Par contempla montañas al anochecer"></a><br><sub>Par contempla montañas al anochecer</sub></td></tr>
+</table>
+
+### Fantasía / Gótico
+
+<table>
+    <tr><td align="center" width="25%"><a href="pink-horned-elf-samurai.jpg"><img src="pink-horned-elf-samurai.jpg" width="220" alt="Guerrera de cuernos y katana sobre fondo rosa"></a><br><sub>Guerrera de cuernos y katana sobre fondo rosa</sub></td><td align="center" width="25%"><a href="neon-alley-halo-pink-eyes.jpg"><img src="neon-alley-halo-pink-eyes.jpg" width="220" alt="Ángel urbano con halo rosa entre grafitis"></a><br><sub>Ángel urbano con halo rosa entre grafitis</sub></td><td align="center" width="25%"><a href="cyberpunk-oni-red-eyes-neon.jpg"><img src="cyberpunk-oni-red-eyes-neon.jpg" width="220" alt="Oni cyberpunk con ojos rojos brillantes"></a><br><sub>Oni cyberpunk con ojos rojos brillantes</sub></td><td align="center" width="25%"><a href="gothic-staircase-winged-halo-figure.jpg"><img src="gothic-staircase-winged-halo-figure.jpg" width="220" alt="Ángel alado en escalera oscura"></a><br><sub>Ángel alado en escalera oscura</sub></td></tr>
+    <tr><td align="center" width="25%"><a href="crimson-lit-oni-portrait-glasses.jpg"><img src="crimson-lit-oni-portrait-glasses.jpg" width="220" alt="Retrato oni bajo luz carmesí"></a><br><sub>Retrato oni bajo luz carmesí</sub></td><td align="center" width="25%"><a href="pink-neon-halo-silver-gaze.jpg"><img src="pink-neon-halo-silver-gaze.jpg" width="220" alt="Aura rosa sobre mirada intensa"></a><br><sub>Aura rosa sobre mirada intensa</sub></td><td align="center" width="25%"><a href="thorn-crown-red-gothic-gaze.jpg"><img src="thorn-crown-red-gothic-gaze.jpg" width="220" alt="Corona de espinas sobre fondo rojo"></a><br><sub>Corona de espinas sobre fondo rojo</sub></td><td align="center" width="25%"><a href="rooftop-angel-dusk-city-skyline.jpg"><img src="rooftop-angel-dusk-city-skyline.jpg" width="220" alt="Ángel solitario en azotea al anochecer"></a><br><sub>Ángel solitario en azotea al anochecer</sub></td></tr>
+</table>
 
 ---
 
@@ -118,7 +169,6 @@ y selecciona el archivo que prefieras de esta colección.
 ## Clonar el repositorio
 
 ```bash
-git clone <URL-del-repositorio>.git
-cd <nombre-del-repositorio>
+git clone https://github.com/Jordanymtz2001-31/Wallpapers-Fedora_44.git
+cd Wallpapers-Fedora_44
 ```
-
